@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.appointment-list {
+  list-style-type: none;
+}
+
+.appointment-container {
+  display: flex;
+  justify-content: space-between;
+  border: solid #b5b7c4 1px;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.date {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.Button {
+  outline: none;
+  border: none;
+  background-color:transparent;
+}

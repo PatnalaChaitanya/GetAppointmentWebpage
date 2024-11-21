@@ -1,0 +1,104 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.app-container {
+  background-color: #ffffff;
+  width: 90%;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #171f46;
+}
+
+.appointment-title {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 8px;
+}
+
+.input-element {
+  border: solid #b5b7c4 1px;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+}
+
+.button {
+  background-color: #8b5cf6;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 8px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.line {
+  width: 100%;
+  border-width: 1px;
+  color: #b5b7c4;
+  margin-top: 20px;
+}
+
+.sub-heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #171f46;
+}
+
+.star-button {
+  background-color: transparent;
+  border: solid 1px #9897f0;
+  color: #9897f0;
+  font-family: 'Roboto';
+  border-radius: 20px;
+  font-size: 10px;
+  text-align: center;
+  width: 70px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointments-container {
+  display: flex;
+  flex-wrap: wrap;
+}
